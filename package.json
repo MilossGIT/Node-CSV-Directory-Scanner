@@ -1,0 +1,18 @@
+{
+  "name": "extract-properties-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Node.js application for extracting properties from a JSON file.",
+  "main": "extract-properties.js",
+  "scripts": {
+    "start": "node extract-properties.js"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "fast-glob": "^3.3.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "v14.17.0"
+  }
+}
